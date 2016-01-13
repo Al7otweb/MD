@@ -1,0 +1,29 @@
+/* About */
+#HTML68 .aboutind-info h4{background:transparent;position:relative;padding:0;margin:0;border:0;text-align:center;font-size:120%}
+.aboutind-img{position:relative;max-height:140px;overflow:hidden}
+.aboutind-img img {max-width:100%;width:100%;transition:all .6s;}
+.aboutind-img:hover img{transform:scale(1.2) rotate(-10deg)}
+.aboutind-img:before{content:'';background:rgba(0,0,0,0.3);position:absolute;top:0;right:0;left:0;bottom:0;z-index:2;transition:all .3s}
+.aboutind-img:hover:before{background:rgba(0,0,0,0.6);}
+.aboutfloat-img{width:55%;position:absolute;top:35%;bottom:35%;right:22.5%;z-index:3}
+.aboutind-float{text-align:center;display:table;width:100%;height:100%}
+.aboutind-float a{background:rgba(243,156,18,.95);color:#fff;padding:8px 14px;z-index:2;display:table-cell;width:100%;font-size:90%;text-transform:uppercase;vertical-align:middle;border-radius:3px;transition:all .3s}
+.aboutind-float:hover a{background:#404040;color:#fff;}
+.aboutind-float a i{font-weight:normal;margin:0 5px 0 0}
+.aboutind-wrpicon{display:block;margin:15px auto;position:relative;}
+.aboutind-wrpicon .extender{width:100%;display:block;}
+.extender{text-align:center;font-size:16px}
+.extender .aboutind-icon{display:inline-block;border:0;margin:0;padding:0;width:32%;}
+.extender .aboutind-icon a{background:#ccc;display:inline-block;font-weight:400;color:#fff;padding:0 12px;line-height:32px;border-radius:3px;font-size:12px;width:100%;}
+.extender .aboutind-icon i{font-family:fontawesome;margin:0 3px 0 0}
+.aboutind-icon.fbl a{background:#3b5998}
+.aboutind-icon.twitt a{background:#19bfe5}
+.aboutind-icon.crcl a{background:#d64136}
+.aboutind-icon.fbl a:hover,.aboutind-icon.twitt a:hover,.aboutind-icon.crcl a:hover{background:#404040}
+.extender .aboutind-icon:hover a,.extender .aboutind-icon a:hover{color:#fff;}
+.aboutind-info{margin:10px 0 0 0;font-size:13px;text-align:center;}
+.aboutind-info p{margin:5px 0}
+.aboutind-info h4{margin-bottom:10px;font-size:16px;text-transform:uppercase;color:#444;font-weight:700}
+.aboutind-info h4 span {position:relative;display:inline-block;padding:0 10px;margin:0 auto;}
+.aboutind-info h4:before,.aboutind-info h4:after {position:absolute;top:51%;overflow:hidden;width:50%;height:1px;content:'\a0';background-color:rgba(0,0,0,0.08);}
+.aboutind-info h4:before {margin-right:-50%;text-align:left;}
